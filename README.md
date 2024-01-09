@@ -20,9 +20,3 @@ This repository contains the source code and assets for the BlogApp, a web appli
 - **User Authentication:** Secure accounts with Devise for authentication and authorization.
 - **Easy Navigation:** Effortlessly navigate through posts with pagination.
 
-Feel free to explore the repository and watch the demo videos to get a closer look at the features.
-
-Thank you for your interest in BlogApp!
-
-Best regards,
-[Your Name]
