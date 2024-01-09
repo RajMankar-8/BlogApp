@@ -1,0 +1,22 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-lg-12 mx-auto">
+      <% @comments.each do |comment| %>
+        <div class="card mb-3 custom-card">
+          <div class="card-body d-flex gap-3 ">
+            <h3 class="card-title text-center mb-4"><%= image_tag "user.png", class:"img-fluid border rounded-pill border-primary", style:"max-width:80px;"%></h3>
+
+            <div>
+              <label class="fw-bold">User:</label>
+              <%= comment.user_email %>
+              <br>
+              <label class="fw-bold mt-2">Comment:</label>
+              <%= comment.content %>
+            </div>
+
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
